@@ -23,4 +23,4 @@ mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true })
 
 app.use('/',indexRouter)
 
-app.listen(process.env.POST || 3000)
+app.listen(process.env.PORT || 3000)
